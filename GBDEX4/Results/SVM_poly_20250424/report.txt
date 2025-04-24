@@ -1,0 +1,19 @@
+SVM-poly 模型评估结果:
+
+Accuracy: 0.918429003021148
+
+F1 Score (Macro): 0.8923149219201851
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       空气无污染       0.91      0.98      0.95       476
+        空气污染       0.94      0.76      0.84       186
+
+    accuracy                           0.92       662
+   macro avg       0.93      0.87      0.89       662
+weighted avg       0.92      0.92      0.92       662
+
+Confusion Matrix:
+467 9
+45 141

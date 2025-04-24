@@ -1,0 +1,19 @@
+AdaBoost 模型评估结果:
+
+Accuracy: 0.93202416918429
+
+F1 Score (Macro): 0.9180952119104244
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       空气无污染       0.97      0.93      0.95       476
+        空气污染       0.85      0.92      0.88       186
+
+    accuracy                           0.93       662
+   macro avg       0.91      0.93      0.92       662
+weighted avg       0.94      0.93      0.93       662
+
+Confusion Matrix:
+445 31
+14 172

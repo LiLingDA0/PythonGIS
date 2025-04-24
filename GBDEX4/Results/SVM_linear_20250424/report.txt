@@ -1,0 +1,19 @@
+SVM-linear 模型评估结果:
+
+Accuracy: 0.9410876132930514
+
+F1 Score (Macro): 0.9283635263857404
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       空气无污染       0.97      0.95      0.96       476
+        空气污染       0.87      0.92      0.90       186
+
+    accuracy                           0.94       662
+   macro avg       0.92      0.94      0.93       662
+weighted avg       0.94      0.94      0.94       662
+
+Confusion Matrix:
+451 25
+14 172
