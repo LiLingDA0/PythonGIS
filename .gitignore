@@ -1,0 +1,37 @@
+# ===================
+# 通用忽略
+# ===================
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ArcGIS 临时文件
+*.sr.lock
+
+AGENTS.md
+
+*.doc
+*.pdf
+*.xls
+*.xlsx
+*.docx
+*.pptx
+*.ppt
+
+# 大体积数据与压缩包
+*.parquet
+*.zip

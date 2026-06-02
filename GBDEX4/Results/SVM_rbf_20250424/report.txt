@@ -1,0 +1,19 @@
+SVM-rbf 模型评估结果:
+
+Accuracy: 0.9365558912386707
+
+F1 Score (Macro): 0.922733184379898
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       空气无污染       0.97      0.95      0.96       476
+        空气污染       0.87      0.91      0.89       186
+
+    accuracy                           0.94       662
+   macro avg       0.92      0.93      0.92       662
+weighted avg       0.94      0.94      0.94       662
+
+Confusion Matrix:
+450 26
+16 170

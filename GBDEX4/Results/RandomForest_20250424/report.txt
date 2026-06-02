@@ -1,0 +1,19 @@
+随机森林 模型评估结果:
+
+Accuracy: 0.9335347432024169
+
+F1 Score (Macro): 0.9177509713562845
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       空气无污染       0.95      0.95      0.95       476
+        空气污染       0.88      0.88      0.88       186
+
+    accuracy                           0.93       662
+   macro avg       0.92      0.92      0.92       662
+weighted avg       0.93      0.93      0.93       662
+
+Confusion Matrix:
+454 22
+22 164

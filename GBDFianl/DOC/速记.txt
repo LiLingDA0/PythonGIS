@@ -1,0 +1,24 @@
+def cal(f):
+    if f == ('城市次干路'.decode('utf-8')):
+        return 20
+    elif f == ('城市支路'.decode('utf-8')):
+        return 20
+    elif f == ('城市主干路'.decode('utf-8')):
+        return 20
+    elif f == ('高架及快速路'.decode('utf-8')):
+        return 40
+    elif f == ('内部道路'.decode('utf-8')):
+        return 0
+    elif f == ('其它'.decode('utf-8')):
+        return 0
+    elif f == ('郊区乡村道路'.decode('utf-8')):
+        return 0
+    elif f == ('人行道路'.decode('utf-8')):
+        return 0
+    else:
+        return 0
+
+
+
+
+居住用地、商业服务业设施用地、绿地与广场用地、工业用地、公共管理与公共服务设施用地、道路与交通设施用地

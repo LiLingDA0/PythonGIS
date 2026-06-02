@@ -1,0 +1,19 @@
+SVM-sigmoid 模型评估结果:
+
+Accuracy: 0.8368580060422961
+
+F1 Score (Macro): 0.8116940581542351
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       空气无污染       0.93      0.84      0.88       476
+        空气污染       0.67      0.84      0.74       186
+
+    accuracy                           0.84       662
+   macro avg       0.80      0.84      0.81       662
+weighted avg       0.86      0.84      0.84       662
+
+Confusion Matrix:
+398 78
+30 156
